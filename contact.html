@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>GLAM</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <img id="logo" src="glamLogo.png"> 
+    
+    <hr>
+    
+  <div id="meny">
+   
+        <strong><a href ="index.html">HOME</a></strong>
+        <strong><a href ="necklace.html">NECKLACE</a></strong>
+        <strong><a href ="bracelet.html">BRACELET</a></strong>
+        <strong><a href ="rings.html">RINGS</a></strong>
+        <strong><a href ="earrings.html">EARRINGS</a></strong>
+        <strong><a href ="contact.html">CONTACT</a></strong>
+ 
+    </div>
+
+    <hr>
+    
+   <div id="inputLag">
+        <strong>Do you want to participate in our customerclub and recieve special offers and deals every week? <br>Fill in these:</strong><br><br>
+        <p id="varsel"></p><br>
+        First name: <input id="fornavn" type="text" placeholder="first name"><br><br>
+        Last name: <input id="etternavn" type="text" placeholder="last name"><br><br>
+        Phone nr: <input id="nummer" type="tel" placeholder="phone nr"><br><br>
+        E-mail: <input id="email" type="email" placeholder="email">
+    </div>
+    
+     <button id="btnRegistrer">Registrer deg!</button>
+    
+     <p id="txtResultat"></p>
+    <p id="txtInfo"></p>
+        
+   
+    
+  
+    
+    
+    
+<script>
+    var fornavn = document.getElementById("fornavn");
+    var etternavn = document.getElementById("etternavn");
+    var nummer = document.getElementById("nummer");
+    var email = document.getElementById("email");
+    var txtResultat = document.getElementById("txtResultat");
+    var txtInfo = document.getElementById("txtInfo");
+    var varsel = document.getElementById("varsel");
+    var btnRegistrer = document.getElementById("btnRegistrer");
+    var inputLag = document.getElementById("inputLag");
+    
+    
+    
+   function registrer(){
+     
+        
+        if(fornavn.value == 0 ||etternavn.value == 0 ||nummer.value == 0 ||email.value == 0){
+            alert("Du må fylle inn alle feltene!");  
+        }
+   
+        else{ 
+            inputLag.innerHTML = "";
+            txtResultat.innerHTML = "Hey " + fornavn.value + "<br>You are now a part of our customerclub, get resdy to recieve special offers and deals.";
+            txtInfo.innerHTML = "Name: " + fornavn.value + " " + etternavn.value + "<br> Phone nr: " + nummer.value + "<br>E-mail: " + email.value;
+
+            console.log(boks.value);
+         }
+    }
+    
+    btnRegistrer.onclick = registrer;
+    
+   
+    
+   
+</script>
+
+</body>
+</html>
+
