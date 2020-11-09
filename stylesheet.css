@@ -19,44 +19,47 @@
     
     
     #product1{
-         position: absolute;
+            position: relative;
             text-align: center;
-            top: 30%;
             font-family:"Times New Roman", Times, serif;
             font-variant: small-caps;
             display: block;
+            align-content: center;
             margin-left: 18%;
             margin-right: auto;
             width: 350px;
     } 
     #product2{
-         position: absolute;
             text-align: center;
-            top: 30%;
             font-family: "Times New Roman", Times, serif;
             font-variant: small-caps;
+            width: 350px;
+            position: relative;
+            align-content: center;
             display: block;
-            margin-left: 38%;
+            margin-left: auto;
             margin-right: auto;
-             width: 350px;
+            margin-top: -113.9%;
     }
+
     #product3{
-         position: absolute;
+            position: relative;
             text-align: center;
-            top: 30%;
             font-family:"Times New Roman", Times, serif;
             font-variant: small-caps;
+            align-content: center;
             display: block;
-            margin-left: 58%;
+            margin-left: 57%;
             margin-right: auto;
-         width: 350px;
+            width: 350px;
+            margin-top: -113.9%;
     }
     
     
     #product4{
-         position: absolute;
+         position: relative;
             text-align: center;
-            top: 85%;
+           
             font-family:"Times New Roman", Times, serif;
             font-variant: small-caps;
             display: block;
@@ -65,18 +68,18 @@
          width: 350px;
     } 
     #product5{
-         position: absolute;
-            text-align: center;
-            top: 85%;
+        text-align: center;
             font-family: "Times New Roman", Times, serif;
             font-variant: small-caps;
+            width: 350px;
+            position: relative;
+            align-content: center;
             display: block;
-            margin-left: 38%;
+            margin-left: auto;
             margin-right: auto;
-         width: 350px;
     }
     #product6{
-         position: absolute;
+         position: relative;
             text-align: center;
             top: 85%;
             font-family:"Times New Roman", Times, serif;
@@ -89,7 +92,7 @@
     
     
     #product7{
-         position: absolute;
+         position: relative;
             text-align: center;
             top: 140%;
             font-family:"Times New Roman", Times, serif;
@@ -100,18 +103,18 @@
          width: 350px;
     } 
     #product8{
-         position: absolute;
-            text-align: center;
-            top: 140%;
+        text-align: center;
             font-family: "Times New Roman", Times, serif;
             font-variant: small-caps;
+            width: 350px;
+            position: relative;
+            align-content: center;
             display: block;
-            margin-left: 38%;
-            margin-right: auto; 
-        width: 350px;
+            margin-left: auto;
+            margin-right: auto;
     }
     #product9{
-         position: absolute;
+         position: relative;
             text-align: center;
             top: 140%;
             font-family:"Times New Roman", Times, serif;
@@ -124,7 +127,7 @@
     
 
     #product10{
-         position: absolute;
+         position: relative;
             text-align: center;
             top: 195%;
             font-family:"Times New Roman", Times, serif;
@@ -135,18 +138,18 @@
          width: 350px;
     } 
     #product11{
-         position: absolute;
-            text-align: center;
-            top: 195%;
+         text-align: center;
             font-family: "Times New Roman", Times, serif;
             font-variant: small-caps;
+            width: 350px;
+            position: relative;
+            align-content: center;
             display: block;
-            margin-left: 38%;
+            margin-left: auto;
             margin-right: auto;
-         width: 350px;
     }
     #product12{
-         position: absolute;
+         position: relative;
             text-align: center;
             top: 195%;
             font-family:"Times New Roman", Times, serif;
@@ -168,6 +171,7 @@
             margin-right: auto;
         width: 400px;
         } 
+
     #btnRegistrer{
             position: absolute;
             text-align: center;
@@ -202,6 +206,25 @@
             width: 350px;
           
         }
+ #cbLag{
+            position: absolute;
+            top: 165px;
+            left: 500px;
+            align-content: center;
+        }      
+        #btnSvar{
+          
+            background-color: dodgerblue;
+            color: white;
+            height: 40px;
+            width: 100px;
+        }
+        #btnRestart{
+             background-color: dodgerblue;
+            color: white;
+            height: 40px;
+            width: 100px;
+        }
         a:link {
             color: black;
             text-decoration: none;
@@ -219,3 +242,4 @@
             text-decoration: none;
             color: black;
                 }
+
